@@ -13,12 +13,12 @@ variable "project" {
 variable "region" {
   type        = string
   description = "The region to deploy to"
-  default     = "europe-west2"
+  default     = "europe-central2"
 
 }
 
 variable "zone" {
   type        = string
   description = "The zone to deploy to"
-  default     = "europe-west2-c"
+  default     = "europe-central2-a"
 }
